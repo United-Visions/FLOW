@@ -1,0 +1,20 @@
+# Geometric Causal Architecture — FLOW
+# Phase 1: Seed Geometry Engine + Expression Renderer prototype
+#
+# No ML frameworks required.  No weights.  No training.
+# Pure mathematics — geometry, topology, information theory.
+
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Graph algorithms (for causal DAG operations)
+networkx>=3.1
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: FAISS for accelerated vocabulary matching at >1K entries
+# Install via: pip install faiss-cpu
+# faiss-cpu>=1.7.0
